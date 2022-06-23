@@ -7,7 +7,7 @@
     align-items: center;          
     }
 
-    .box{
+.box{
     width: 300px;
     height: 300px;    
     font-size: 20px;
@@ -15,28 +15,68 @@
     background-color: rgba(82, 245, 245, 0.075);
     }
 
-    body {
-        margin: 0px;
-        background-image: url(feche-de-ondulacoes.webp);
+.login {
+    margin: 0px;
+    background-image: url(feche-de-ondulacoes.webp);
                
         
     }
 
-    form {
-        border-style: groove;        
-        position: static;
-        padding: 10px;
-        border-radius: 10px;
-        align-content: center;
-        text-align: center;
-        border-radius: 20px;   
-        background-color: rgba(82, 245, 245, 0.185);
+form {
+    border-style: groove;        
+    position: static;
+    padding: 10px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;   
+    background-color: rgba(82, 245, 245, 0.185);
         
     }
-    h6 {
-        font-size: 13px;
+h6 {
+    font-size: 13px;
     }
-    h5 {
+h5 {
         color: pink;
         font-size: 15px;
+    }
+button {
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+
+    /* PAGINA 2*/
+
+    .menu-top {
+        background-color: blue;
+        border: 10px;
+        border-style: dotted;
+        border-color: black;
+        display: flex;
+        
+    }
+    .menu-cond {
+        width: 450px;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.705);
+        margin: 15px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+    
+    .menu-acion {
+        width: 950px;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.705);
+        border-radius: 10px;
+        margin: 15px;
+    }
+    
+    .menu-panic {
+        background-color: rgba(255, 255, 255, 0.705);
+        border-radius: 10px;
+        width: 400px;
+        height: 300px;
+        margin: 15px;
     }

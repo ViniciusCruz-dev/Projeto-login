@@ -22,14 +22,18 @@
         
     }
 input {
-    border-radius: 10px;
+    border-radius: 15px;
     width: 210px;
     height: 28px;
     text-align: inherit;
     font-size: 15px;
     
+    
 }
 
+img {
+    border-radius: 15px;
+}
 form {
     border-style: groove;        
     position: static;
@@ -49,7 +53,7 @@ h5 {
         font-size: 15px;
     }
 button {
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 17px;
     
 }

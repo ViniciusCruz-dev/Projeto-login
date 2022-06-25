@@ -18,6 +18,8 @@
 .login {
     margin: 0px;
     background-image: url(feche-de-ondulacoes.webp);
+    background-attachment: fixed;
+    background-size: cover;
                
         
     }

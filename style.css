@@ -7,13 +7,17 @@
     align-items: center;          
     }
 
-.box{
+.box {
     width: 400px;
     height: 400px;    
-    font-size: 20px;
     border-radius: 20px;   
-    background-color: rgba(82, 245, 245, 0.075);
-    }
+    
+    
+}
+.box h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 50px;
+}
 
 .login {
     margin: 0px;
@@ -44,11 +48,11 @@ form {
     align-content: center;
     text-align: center;
     border-radius: 20px;   
-    background-color: rgba(82, 245, 245, 0.185);
+    background-color: rgba(82, 245, 245, 0.295);
         
     }
 h6 {
-    font-size: 13px;
+    font-size: 20px;
     }
 h5 {
         color: pink;
